@@ -18,9 +18,11 @@ export default function Home() {
       <Card number="08"  title="Orb Killa" image="https://i.imgur.com/PjSQyzW.jpg"></Card>
       <Card number="10"  title="U-Void Synthesizer" image="https://i.imgur.com/mMZNoci.jpg"></Card>
       <Card number="11"  title="Electronic Gimp" image="https://i.imgur.com/MBv33EE.jpg"></Card>
+      <Card number="12"  title="Wolf Girl" image="https://i.imgur.com/JJSVvp8.png"></Card>
       <Card number="13" title="The Ugly Art" image="https://i.imgur.com/6y0WdUH.png"></Card>
       <Card number="14" title="Reporpoised Phantasies" image="https://i.imgur.com/zoOzFlF.png"></Card>
       <Card number="15"  title="MRK Mix Volume 2" image="https://i.imgur.com/wXEo70y.jpg"></Card>
+      <Card number="16"  title="Out by 16, Dead on the Scene" image="https://i.imgur.com/BB1C6Ra.png"></Card>
       <Card number="17"  title="This is Your Face on Dogs" image="https://i.imgur.com/46b7c2q.jpg"></Card>
       <Card number="18" title="Because Im Young Arrogant" image="https://i.imgur.com/I9tws3D.png"></Card>
       <Card number="19A" title="Gemini (Heaven Mix)" image="https://i.imgur.com/nwayFrN.png"></Card>
@@ -34,7 +36,12 @@ export default function Home() {
       <Card number="30" title="MG skateboard" image="https://i.imgur.com/HsSwYMM.png"></Card>
       <Card number="32"  title="MB Official" image="https://i.imgur.com/zNYHYXf.jpg"></Card>
       <Card number="34"  title="65,000 Year Long Rave" image="https://i.imgur.com/1nsMpsU.jpg"></Card>
-      <Card number=""  title="" image=""></Card>
+      
+      
+      <Card number="36"  title="Necro Culture Vulture" image="https://i.imgur.com/ddTk568.png"></Card>
+      {/* <Card number=""  title="" image=""></Card> */}
+      
+
 
     </div>
   )
