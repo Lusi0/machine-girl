@@ -43,7 +43,7 @@ export default function Home() {
       <Card number="29" title="Phases of WLFGRL" image="https://i.imgur.com/2CgRmxh.png"></Card>
       <Card number="30" title="MG skateboard" image="https://i.imgur.com/HsSwYMM.png"></Card>
 
-      <Card number="32"  title="MB Official" image="https://i.imgur.com/zNYHYXf.jpg"></Card>
+      <Card number="32"  title="MG Official" image="https://i.imgur.com/zNYHYXf.jpg"></Card>
 
       <Card number="34"  title="65,000 Year Long Rave" image="https://i.imgur.com/1nsMpsU.jpg"></Card>
       <Card number="35"  title="Hellscape Tour" image="https://i.imgur.com/AhHUN3G.png"></Card>
