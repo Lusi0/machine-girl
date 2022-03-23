@@ -4,11 +4,17 @@ import styles from '../styles/Home.module.css'
 import Card from '../components/cards'
 
 export default function Home() {
+
+  
   return (
     <div className={styles.container}>
       <Head>
         <title>Machine Girl</title>
         </Head>
+
+      {/* search bar at top */}
+      
+      
       <Card number="00"  title="Cardback" image="https://i.imgur.com/D6aUReA.jpg"></Card>
       <Card number="01"  title="Machine Girl" image="https://i.imgur.com/OLGNGjB.png"></Card>
       <Card number="02" title="Mankid, the Mankid" image="https://i.imgur.com/qZRBCtV.png"></Card>
@@ -34,14 +40,14 @@ export default function Home() {
       <Card number="21" title="Average Machine Girl Enjoyer" image="https://i.imgur.com/m7tmnwE.png"></Card>
       <Card number="22"  title="Scroll of Sorrows" image="https://i.imgur.com/gnx7Cjj.jpg"></Card>
       <Card number="23" title="Ghost" image="https://i.imgur.com/Y7t6oFO.png"></Card>
-      <Card number="24"  title="Bitten Twice" image="https://i.imgur.com/D6aUReA.jpg"></Card>
+      <Card number="24"  title="Bitten Twice" image="https://i.imgur.com/fjMukjN.jpg"></Card>
       <Card number="25"  title="Beta Beast, the Secondborn" image="https://i.imgur.com/I9dS2Q3.png"></Card>
       <Card number="26"  title="Necro Culture Vulture" image="https://i.imgur.com/ibkFCXk.png"></Card>
       <Card number="27"  title="hounds of the hellscape" image="https://i.imgur.com/w2lDISt.png"></Card>
       <Card number="28"  title="Dog Wizard" image="https://i.imgur.com/g2RSvsq.jpg"></Card>
       <Card number="29" title="Phases of WLFGRL" image="https://i.imgur.com/2CgRmxh.png"></Card>
       <Card number="30" title="MG skateboard" image="https://i.imgur.com/HsSwYMM.png"></Card>
-      <Card number="31"  title="Mask of Johnnascus" image="https://i.imgur.com/D6aUReA.jpg"></Card>
+      <Card number="31"  title="Mask of Johnnascus" image="https://i.imgur.com/dJnIee2.jpg"></Card>
       <Card number="32"  title="MG Official" image="https://i.imgur.com/zNYHYXf.jpg"></Card>
       <Card number="33"  title="Machine Girl Show" image="https://i.imgur.com/D6aUReA.jpg"></Card>
       <Card number="34"  title="65,000 Year Long Rave" image="https://i.imgur.com/1nsMpsU.jpg"></Card>
