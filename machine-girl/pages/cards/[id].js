@@ -17,7 +17,7 @@ export default function myCard({ card }) {
   
 
   
-  console.log(card.title)
+ 
 
     return (
       <Card number={card.id} title={card.name} image={card.imgurl} />

@@ -21,6 +21,12 @@ h3{
 
 }
 
+a{
+  /* remove styling */
+  text-decoration: none;
+  color: black;
+}
+
 
 /* if its on mobile change the width to 100% */
 @media only screen and (max-width: 600px) {
