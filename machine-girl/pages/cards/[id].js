@@ -5,12 +5,6 @@ import Card from '../../components/cards'
 
 
 
-
-
-
-
-
-
 export default function myCard({ card }) {
   const router = useRouter()
   const {id} = router.query
@@ -31,7 +25,7 @@ export default function myCard({ card }) {
 
 export async function getServerSideProps({ params }) {
   
-  const req = await fetch(`http://localhost:3000/cards/${params.id}.json`);
+  const req = await fetch(`http://localhost:3000/api/cards/${params.id}`);
   const data = await req.json();
   return {
       props: { card: data },
