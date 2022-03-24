@@ -3,6 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from '../components/cards'
 
+
+function Cards() {
+
+}
+
+
 export default function Home() {
 
   
@@ -15,9 +21,9 @@ export default function Home() {
       {/* search bar at top */}
       
       
-      <Card number="00"  title="Cardback" image="https://i.imgur.com/D6aUReA.jpg"></Card>
-      <Card number="01"  title="Machine Girl" image="https://i.imgur.com/OLGNGjB.png"></Card>
-      <Card number="02" title="Mankid, the Mankid" image="https://i.imgur.com/qZRBCtV.png"></Card>
+      <Card number="00"  title="Cardbxack" image="https://i.imgur.com/D6aUReA.jpg"></Card>
+      <Card title="Machine Girl" image="https://i.imgur.com/OLGNGjB.png"></Card>
+      <Card title="Mankid, the Mankid" image="https://i.imgur.com/qZRBCtV.png"></Card>
       <Card number="03"  title="Johnnascus" image="https://i.imgur.com/L3QAiFq.png"></Card>
       <Card number="04"  title="Evicshen" image="https://i.imgur.com/D6aUReA.jpg "></Card>
       <Card number="05" title="DJ Chaotic Ugly" image="https://i.imgur.com/FA2XTem.png"></Card>
@@ -62,5 +68,6 @@ export default function Home() {
     </div>
   )
 }
+
 
 

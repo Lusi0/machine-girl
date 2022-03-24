@@ -5,7 +5,9 @@ import React from 'react';
 
 class Card extends React.Component {
     render() {
+        const mycardlink = 'cards/' + this.props.number
         return (
+            <a href={mycardlink}>
             <div className="card">
                 {/* title */}
                 <div className="card-title">
@@ -16,6 +18,7 @@ class Card extends React.Component {
                     <img src={this.props.image} alt={this.props.title}/>
                 </div>
             </div>
+            </a>
         );
     }
 }

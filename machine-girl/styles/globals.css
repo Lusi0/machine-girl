@@ -16,9 +16,12 @@ h3{
   display: inline-block;
   width: 20%;
   
+
   
 
 }
+
+
 /* if its on mobile change the width to 100% */
 @media only screen and (max-width: 600px) {
   .card{
