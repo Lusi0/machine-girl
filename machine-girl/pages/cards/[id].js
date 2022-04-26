@@ -25,7 +25,7 @@ export default function useMyCard({ card }) {
 
 export async function getServerSideProps({ params }) {
   
-  const req = await fetch(`http://localhost:3000/api/cards/${params.id}`);
+  const req = await fetch(`https://machine-girl2.vercel.app/api/cards/${params.id}`);
   const data = await req.json();
   return {
       props: { card: data },

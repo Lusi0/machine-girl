@@ -17,7 +17,7 @@ export default function Cardlist({cards}) {
 
 export async function getServerSideProps() {
   
-  const req = await fetch(`http://localhost:3000/api/cards`);
+  const req = await fetch(`https://machine-girl2.vercel.app/api/cards`);
   const data = await req.json();
   return {
       props: { cards: data },
