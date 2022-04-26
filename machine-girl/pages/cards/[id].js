@@ -5,7 +5,7 @@ import Card from '../../components/cards'
 
 
 
-export default function myCard({ card }) {
+export default function useMyCard({ card }) {
   const router = useRouter()
   const {id} = router.query
   
