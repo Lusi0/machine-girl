@@ -3,9 +3,19 @@ import React from 'react';
 // new card component
 
 
+
 class Card extends React.Component {
     render() {
-        const mycardlink = 'cards/' + this.props.number
+
+        // if this.props.atcards is true then set mycardlink
+
+        let mycardlink = this.props.atcards ?  this.props.number : '/cards/' + this.props.number;
+
+        //let mycardlink =  '/cards/' + this.props.number
+        
+
+        
+        
         return (
             <a href={mycardlink}>
             <div className="card">

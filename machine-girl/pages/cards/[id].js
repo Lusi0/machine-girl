@@ -14,7 +14,7 @@ export default function myCard({ card }) {
  
 
     return (
-      <Card number={card.id} title={card.name} image={card.imgurl} />
+      <Card atcards={true} number={card.id} title={card.name} image={card.imgurl} />
     )
 
 
