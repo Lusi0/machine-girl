@@ -11,6 +11,7 @@ export default function Cardlist({cards}) {
         <Card key={card.id} number={card.id} title={card.name} image={card.imgurl} />
       ))}
     </div>
+    // woah
   )
 }
 
